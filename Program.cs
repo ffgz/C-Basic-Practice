@@ -17,27 +17,33 @@ namespace Demo
             foreach(int data in this.list){ Console.Write($"{data} "); }
             Console.WriteLine();
         }
-        public void merge(ListMerge L)
+        public void merge(ListMerge L, bool isRepeat)
         {
             int index = 0;  // 记录插入位置
+            ArrayList arr = new ArrayList();
             foreach(int elem in L.list)
             {
                 index = 0;  // 每次将插入位置归0
                 foreach(int data in list)
                 {
-                    // Console.WriteLine($"Now elem:{elem} data:{data}");
                     if(data < elem){
                         index++;    // 插入元素比当前数小，插入位置+1
-                        continue;
+                        // 比list中最大值大的数存储到arr中
+                        if(index == list.Count){ arr.Add(elem); }
+                        else continue;
                     }
                     else{
-                        list.Insert(index,elem);
-                        // foreach(int e in this.list){ Console.Write($"{e} "); }
-                        // Console.WriteLine();
+                        if(data == elem){
+                            // 是否课插入重复元素
+                            if(isRepeat){ list.Insert(index,elem); }
+                            break;
+                        }
+                        list.Insert(index,elem);    // 插入其他元素
                         break;
                     }
                 }
             }
+            foreach(int elem in arr){ list.Add(elem); } // 将arr中的值添加到list尾部
         }
     }
 
@@ -176,11 +182,12 @@ namespace Demo
         public void mergelistTest()
         {
             ArrayList l1 = new ArrayList(){1,3,5,7};
-            ArrayList l2 = new ArrayList(){2,4,6,8};
+            ArrayList l2 = new ArrayList(){1,5,9,11};
             ListMerge L1 = new ListMerge(l1);
             ListMerge L2 = new ListMerge(l2);
+
             L1.show();
-            L1.merge(L2);
+            L1.merge(L2,false);
             L1.show();
         }
         
