@@ -26,6 +26,7 @@ namespace Demo
                 index = 0;  // 每次将插入位置归0
                 foreach(int data in list)
                 {
+                    Console.WriteLine($"Now index:{index} elem:{elem} data:{data}");
                     if(data < elem){
                         index++;    // 插入元素比当前数小，插入位置+1
                         // 比list中最大值大的数存储到arr中
@@ -42,6 +43,8 @@ namespace Demo
                         break;
                     }
                 }
+                foreach(int e in this.list){ Console.Write($"{e} "); }
+                Console.WriteLine();
             }
             foreach(int elem in arr){ list.Add(elem); } // 将arr中的值添加到list尾部
         }
@@ -187,8 +190,9 @@ namespace Demo
             ListMerge L2 = new ListMerge(l2);
 
             L1.show();
-            L1.merge(L2,false);
+            L1.merge(L2,true);
             L1.show();
+            
         }
         
         static void Main(string[] args)
@@ -221,7 +225,7 @@ namespace Demo
             // Console.ReadKey();
 
             // 有序表合并
-            // program.mergelistTest();
+            program.mergelistTest();
         }
     }
 }
