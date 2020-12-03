@@ -1,0 +1,32 @@
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.exe
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.deps.json
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.runtimeconfig.json
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.runtimeconfig.dev.json
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.dll
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\ref\test.dll
+C:\Users\13263\Desktop\软件设计实践\test\bin\Debug\net5.0\test.pdb
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.csprojAssemblyReference.cache
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.AssemblyInfo.cs
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.dll
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\ref\test.dll
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.pdb
+C:\Users\13263\Desktop\软件设计实践\test\obj\Debug\net5.0\test.genruntimeconfig.cache
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.exe
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.deps.json
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.runtimeconfig.json
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.runtimeconfig.dev.json
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.dll
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\ref\test.dll
+D:\Code\C#\Basic Practice\bin\Debug\net5.0\test.pdb
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.csprojAssemblyReference.cache
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.AssemblyInfoInputs.cache
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.AssemblyInfo.cs
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.csproj.CoreCompileInputs.cache
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.dll
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\ref\test.dll
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.pdb
+D:\Code\C#\Basic Practice\obj\Debug\net5.0\test.genruntimeconfig.cache
