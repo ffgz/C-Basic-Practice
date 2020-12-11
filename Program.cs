@@ -109,6 +109,7 @@ namespace Demo
             // basic.datetime();
             // basic.baseConversion();
             // basic.array_foreachTest();
+            
 
             // 参数数组
             // int sum1 = basic.array_getSum(1,2,3,4,5);
@@ -194,7 +195,15 @@ namespace Demo
             L1.show();
             
         }
-        
+        public void regexExpressionTest()
+        {
+            RegexTest r = new RegexTest();
+            r.regexDemo();
+            r.replaceDemo();
+            r.fileDemo("file/regular_test.txt");
+            r.findallDemo();
+        }
+
         static void Main(string[] args)
         {
             Program program = new Program();
@@ -225,7 +234,10 @@ namespace Demo
             // Console.ReadKey();
 
             // 有序表合并
-            program.mergelistTest();
+            // program.mergelistTest();
+
+            // 正则表达式
+            program.regexExpressionTest();
         }
     }
 }

@@ -1,3 +1,4 @@
+using System.Text;
 using System.Text.RegularExpressions;
 using System;
 using System.IO;
@@ -90,22 +91,6 @@ namespace Demo
             DateTime t = new DateTime(2020,11,23,21,53,35);
             string time = String.Format("Now is {0:t} on {0:d}",t);
             Console.WriteLine(time);
-
-            // 正则表达式
-            string str1 = "1851 1999 1950 1905 2003";
-            // (?<=19)匹配19后的字符串 \d{2}匹配十进制数字的前2个 \b匹配边界（空格的位置）
-            string pattern1 = @"(?<=19)\d{2}\b";    
-            // string pattern2 = @"\bS\S*";    // 匹配以S开头的单词
-            // string pattern3 = @"\bm\S*e\b"; // 匹配以m开头以e结尾的单词
-            foreach(Match match in Regex.Matches(str1,pattern1))
-                Console.WriteLine(match.Value);
-            
-            // 正则表达式实例 替换多余的空格
-            string str2 = "Hello   World ";
-            string pattern4 = "\\s+";
-            Regex regex = new Regex(pattern4);  // Regex类用于表示一个正则表达式
-            Console.WriteLine(str2);
-            Console.WriteLine(regex.Replace(str2," "));
         }
         
         // 时间表示
