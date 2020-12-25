@@ -201,7 +201,7 @@ namespace Demo
             r.regexDemo();
             r.replaceDemo();
             r.fileDemo("file/regular_test.txt");
-            r.findallDemo();
+            // r.findallDemo();
         }
 
         static void Main(string[] args)
@@ -237,7 +237,7 @@ namespace Demo
             // program.mergelistTest();
 
             // 正则表达式
-            program.regexExpressionTest();
+            // program.regexExpressionTest();
         }
     }
 }
